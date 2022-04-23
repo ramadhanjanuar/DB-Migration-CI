@@ -1,4 +1,10 @@
+# """
+# @Author: Ramadhan Januar
+# @Email: ramadhan@99.co
+# @Date: 2022-04-21
+# """
 # tests/test_nn_dbm.py
+
 from typer.testing import CliRunner
 from nn_dbm import __app_name__, __version__, cli
 

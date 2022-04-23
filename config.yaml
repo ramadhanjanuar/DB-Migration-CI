@@ -1,2 +1,26 @@
+#DB_driver:
+#-postgres
+#-mysql
+
+
 databases:
-  - 
+  - DB_name: "psikotes"
+    DB_host: "localhost"
+    DB_port: "5435"
+    DB_driver: "postgres"
+    DB_user: "postgres"
+    DB_password: "postgres"
+  
+  - DB_name: "mysql"
+    DB_host: "httptest.com"
+    DB_port:
+    DB_driver: "postgres"
+    DB_user:
+    DB_password:
+  
+  - DB_name: "demand"
+    DB_host: "httptest.com"
+    DB_port:
+    DB_driver: "postgres"
+    DB_user:
+    DB_password:
